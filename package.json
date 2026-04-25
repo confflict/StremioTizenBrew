@@ -1,14 +1,21 @@
 {
-    "name": "@T-ADevelopment/stremio",
-    "appName": "Stremio",
-    "version": "Alpha 1.0",
-    "description": "Stremio addon simply allows you to access stremio on unsupported Samsung (Tizen) TVs.",
-    "packageType": "app",
-    "websiteURL": "https://web.stremio.com/",
-    "author": "T-A Development",
-    "keys": ["MediaPlayPause"],
-    "repository": {
-      "url": "https://github.com/T-ADevelopment/StremioTizenBrew"
-    },
-    "license": "GPL-3.0-only"
-  }
+  "name": "stremio-tizenbrew",
+  "appName": "Stremio",
+  "version": "1.0.1",
+  "description": "Stremio Web for TizenBrew",
+  "packageType": "mods",
+  "websiteURL": "https://web.stremio.com/",
+  "main": "main.js",
+  "author": "T-A Development / patched",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackPrevious",
+    "MediaTrackNext"
+  ],
+  "license": "GPL-3.0-only"
+}
